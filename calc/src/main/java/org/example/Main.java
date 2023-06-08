@@ -1,4 +1,5 @@
 package org.example;
+// class library  for simple text scanning
  import java.util.Scanner;
 
 public class Main {
@@ -10,12 +11,15 @@ public class Main {
         System.out.print("Enter the first number: ");
         double num1 = Double.parseDouble(scanner.nextLine());
 
+        // Prompt the user to enter the operator
+        System.out.print("Enter the operator (+, -, *, /, %): ");
+        String operator = scanner.nextLine();
+
+
         // Prompt the user to enter the second number
         System.out.print("Enter the second number: ");
         double num2 = Double.parseDouble(scanner.nextLine());
 
-        // Prompt the user to enter the operator
-        System.out.print("Enter the operator (+, -, *, /, %): ");
-        String operator = scanner.nextLine();
+
         }
 }
