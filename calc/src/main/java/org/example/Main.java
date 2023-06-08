@@ -22,7 +22,43 @@ public class Main {
 
         // Perform the arithmetic operation based on the operator
 
-        }
+ }
+ private double number1, number2;
+    private String operator;
 
+    public double main(double number1, double number2, String operator){
+        this.number1 = number1;
+        this.number2 = number2;
+        this.operator = operator;
 
+        return switch (this.operator){
+            case "+" -> addition();
+            case "-" -> subtraction();
+            case "*" -> multiplication();
+            case "/" -> division();
+            case "%" -> modulus();
+            default -> 0;
+        };
     }
+
+
+    private double addition(){
+        return this.number1 + this.number2;
+    }
+
+    private double multiplication(){
+        return this.number1 * this.number2;
+    }
+
+    private double division(){
+        return this.number1 / this.number2;
+    }
+
+    private double modulus(){
+        return this.number1 % this.number2;
+    }
+
+    private double subtraction(){
+        return this.number1 - this.number2;
+    }
+}
