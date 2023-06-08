@@ -21,6 +21,14 @@ public class Main {
         double num2 = Double.parseDouble(scanner.nextLine());
 
         // Perform the arithmetic operation based on the operator
+        //innitialize the class
+        var main = new Main();
+
+        //perform addition
+        System.out.println(main.main(num1, num2, operator));
+
+        //perform subtraction
+        System.out.println(main.main(num1, num2, operator));
 
     }
     private double number1, number2;
