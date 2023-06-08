@@ -1,4 +1,4 @@
-package org.example;
+package calc.src.main.java.org.example;
 // class library  for simple text scanning
  import java.util.Scanner;
 
