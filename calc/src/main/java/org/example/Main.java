@@ -21,10 +21,33 @@ public class Main {
         double num2 = Double.parseDouble(scanner.nextLine());
 
         // Perform the arithmetic operation based on the operator
+        double result = 0.0;
 
-    }
-    private double number1, number2;
-        private String operator;
+        if (operator.equals("+")) {
+            result = num1 + num2;
+        } else if (operator.equals("-")) {
+            result = num1 - num2;
+        } else if (operator.equals("*")) {
+            result = num1 * num2;
+        } else if (operator.equals("/")) {
+            if (num2 != 0) {
+                result = num1 / num2;
+            } else {
+                System.out.println("Error: Division by zero is not allowed.");
+                return; // Terminate the program if division by zero occurs
+            }
+        } else if (operator.equals("%")) {
+            result = num1 % num2;
+        } else {
+            System.out.println("Error: Invalid operator.");
+            return; // Terminate the program if an invalid operator is entered
+        }
+
+        System.out.println("Result: " + result);
+
+ }
+ private double number1, number2;
+    private String operator;
 
     public double main(double number1, double number2, String operator){
         this.number1 = number1;
