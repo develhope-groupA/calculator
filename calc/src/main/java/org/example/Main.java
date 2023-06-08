@@ -20,6 +20,9 @@ public class Main {
         System.out.print("Enter the second number: ");
         double num2 = Double.parseDouble(scanner.nextLine());
 
+        // Perform the arithmetic operation based on the operator
 
         }
-}
+
+
+    }
