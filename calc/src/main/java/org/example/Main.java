@@ -29,6 +29,7 @@ public class Main {
             result = num1 - num2;
         } else if (operator.equals("*")) {
             result = num1 * num2;
+//             Math.multiplyFull(a, b);
         } else if (operator.equals("/")) {
             if (num2 != 0) {
                 result = num1 / num2;
@@ -46,6 +47,8 @@ public class Main {
         System.out.println("Result: " + result);
 
     }
+
+// Using Switch Case
 private double number1, number2;
 private String operator;
 
