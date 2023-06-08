@@ -12,7 +12,7 @@ public class Main {
         double num1 = Double.parseDouble(scanner.nextLine());
 
         // Prompt the user to enter the operator
-        System.out.print("Enter the operator (+, -, *, /, %): ");
+        System.out.print("Enter the operator : ");
         String operator = scanner.nextLine();
 
 
