@@ -45,9 +45,9 @@ public class Main {
 
         System.out.println("Result: " + result);
 
- }
- private double number1, number2;
-    private String operator;
+    }
+private double number1, number2;
+private String operator;
 
     public double main(double number1, double number2, String operator){
         this.number1 = number1;
