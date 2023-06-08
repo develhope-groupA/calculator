@@ -22,9 +22,9 @@ public class Main {
 
         // Perform the arithmetic operation based on the operator
 
- }
- private double number1, number2;
-    private String operator;
+    }
+    private double number1, number2;
+        private String operator;
 
     public double main(double number1, double number2, String operator){
         this.number1 = number1;
